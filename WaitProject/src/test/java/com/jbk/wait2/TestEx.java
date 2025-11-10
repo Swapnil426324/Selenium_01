@@ -33,7 +33,10 @@ public class TestEx {
 	}
 
 	public void m2() {
-		System.out.println("master changes");
+		System.out.println("master changes2");
+	}
+	public void m3() {
+		System.out.println("master changes3");
 	}
 	
 	public void m3Local() {
