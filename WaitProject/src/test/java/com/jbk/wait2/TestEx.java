@@ -23,5 +23,9 @@ public class TestEx {
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(locator)));
 		return element;
 	}
+	
+   public void conflict() {
+	   
+   }
 
 }
