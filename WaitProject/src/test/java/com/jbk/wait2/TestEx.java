@@ -1,9 +1,15 @@
 package com.jbk.wait2;
 
-public class TestEx {
+import java.time.Duration;
 
-	public static void main(String[] args) {
-		System.out.println("hii");
+import org.openqa.selenium.WebDriver;
+
+public class TestEx {
+	
+	WebDriver driver;
+
+	public void setImplicitWait() {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
 }
