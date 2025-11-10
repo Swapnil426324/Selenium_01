@@ -24,4 +24,8 @@ public class TestEx {
 		return element;
 	}
 
+	public void m1(){
+		
+	}
+
 }
