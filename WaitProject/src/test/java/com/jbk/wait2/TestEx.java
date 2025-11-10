@@ -28,4 +28,8 @@ public class TestEx {
 	   
    }
 
+	public void m1(){
+		
+	}
+
 }
