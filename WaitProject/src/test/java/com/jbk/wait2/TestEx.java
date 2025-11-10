@@ -35,5 +35,9 @@ public class TestEx {
 	public void m2() {
 		System.out.println("master changes");
 	}
+	
+	public void m3Local() {
+		System.out.println("local changes");
+	}
 
 }
