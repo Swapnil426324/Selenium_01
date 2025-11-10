@@ -9,10 +9,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TestEx {
-	
+
 	WebDriver driver = null;
-	
-    // implicit wait utility method
+
+	// implicit wait utility method
 	public void setImplicitWait() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
@@ -23,19 +23,17 @@ public class TestEx {
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(locator)));
 		return element;
 	}
-	
-   public void conflict() {
-	  System.out.println("local system changes"); 
-   }
-   
-	public void m1(){
-		System.out.println("master changes"); 
-	}
-	
-	
 
-	public void m2(){
-		System.out.println("master changes"); 
+	public void conflict() {
+		System.out.println("local system changes");
+	}
+
+	public void m1() {
+		System.out.println("master changes");
+	}
+
+	public void m2() {
+		System.out.println("master changes");
 	}
 
 }
