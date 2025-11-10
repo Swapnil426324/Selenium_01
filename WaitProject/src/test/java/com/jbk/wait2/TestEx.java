@@ -24,4 +24,7 @@ public class TestEx {
 		return element;
 	}
 
+	public void fluentWait() {
+		
+	}
 }
