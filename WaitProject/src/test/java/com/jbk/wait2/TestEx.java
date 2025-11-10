@@ -32,4 +32,8 @@ public class TestEx {
 		System.out.println("master changes"); 
 	}
 
+	public void m2(){
+		System.out.println("master changes"); 
+	}
+
 }
