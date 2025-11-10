@@ -15,7 +15,8 @@ public class TestEx {
 	public void setImplicitWait() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
-	
+
+	// explicit wait utility method
 	public WebElement setExplicitWait(String locator) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(locator)));
