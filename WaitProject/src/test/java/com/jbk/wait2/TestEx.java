@@ -24,24 +24,7 @@ public class TestEx {
 		return element;
 	}
 
-	public void conflict() {
-		System.out.println("local system changes");
-	}
-
-	public void m1() {
-		System.out.println("master changes");
-	}
-
-	public void m2() {
-		System.out.println("master changes2");
-	}
-	public void m3() {
-		System.out.println("master changes3");
-	}
 	
-	public void m3Local() {
-		System.out.println("local changes");
-	}
 	
 
 }
