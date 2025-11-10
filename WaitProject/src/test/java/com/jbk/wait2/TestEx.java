@@ -25,9 +25,9 @@ public class TestEx {
 	}
 	
    public void conflict() {
-	   
+	  System.out.println("local system changes"); 
    }
-
+   
 	public void m1(){
 		
 	}
