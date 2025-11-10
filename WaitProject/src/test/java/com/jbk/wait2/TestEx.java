@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TestEx {
 
-	WebDriver driver = null;
+	WebDriver driver;
 
 	// implicit wait utility method
 	public void setImplicitWait() {
