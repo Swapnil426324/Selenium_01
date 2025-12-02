@@ -25,7 +25,7 @@ public class Demo {
 		for(WebElement element : list) {
 			String price = element.getText();
 			System.out.println("mobiles price :- "+price);
-			boolean b1=element.isDisplayed();
+			boolean b1 = element.isDisplayed();
 			Assert.assertTrue(b1);
 		}
 		
