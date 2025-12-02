@@ -18,7 +18,6 @@ public class Demo {
 		driver = new ChromeDriver();
 		driver.get("https://www.amazon.in");
 		//driver.findElement(By.xpath("//button[@type='submit']")).click();
-
 		driver.findElement(By.xpath("//input[@placeholder='Search Amazon.in']")).sendKeys("mobile");	
 		driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
 		Thread.sleep(5000);
