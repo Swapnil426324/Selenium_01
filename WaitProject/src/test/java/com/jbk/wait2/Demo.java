@@ -11,10 +11,12 @@ import org.testng.annotations.Test;
 
 public class Demo {
 
+	WebDriver driver;
+	
 	@Test
 	public void openBrowser() throws Exception {
-		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=155259813593&hvpone=&hvptwo=&hvadid=774088017322&hvpos=&hvnetw=g&hvrand=9648822214945639655&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9300272&hvtargid=kwd-64107830&hydadcr=14452_2429115&gad_source=1");
+		driver = new ChromeDriver();
+		driver.get("https://www.amazon.in");
 		//driver.findElement(By.xpath("//button[@type='submit']")).click();
 
 		driver.findElement(By.xpath("//input[@placeholder='Search Amazon.in']")).sendKeys("mobile");	
