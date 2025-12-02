@@ -22,7 +22,7 @@ public class Demo {
 		Thread.sleep(5000);
 		List<WebElement> list=driver.findElements(By.xpath("//span[@class='a-price']"));
 
-		for(WebElement element:list) {
+		for(WebElement element : list) {
 			String price = element.getText();
 			System.out.println("mobiles price :- "+price);
 			boolean b1=element.isDisplayed();
