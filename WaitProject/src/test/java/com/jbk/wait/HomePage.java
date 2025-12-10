@@ -13,4 +13,9 @@ public class HomePage {
 	public void test02() {
 		System.out.println("this is test02");
 	}
+
+	@Test
+	public void test03() {
+		System.out.println("this is test03");
+	}
 }
