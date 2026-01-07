@@ -19,7 +19,7 @@ public class Amzon {
 
 	@AfterMethod
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 
 	// implicit wait
